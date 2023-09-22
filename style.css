@@ -1,0 +1,76 @@
+h1,h2,h3,h4,h5,a,p,ul{font-family: "Montserrat",Arial, sans-serif}
+h1,h4,hr{
+  text-align: center;
+}
+
+h3,p,hr,ul{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+p,ul{
+  color: #ddd;
+  font-size: 20px;
+}
+
+h3{
+  font-size: 30px;
+
+}
+
+
+body {background-color:#3E3D45;}
+h1,h2,h3,h4,hr {color:#E4D180;}
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+a.active,button:active,input[type="submit"] {
+    color: white;
+  }
+  a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 14px ;
+    
+  }
+  button,input[type="submit"]{
+    width:150px;
+    height:50px;
+    color:#3E3D45;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    box-shadow: 5px 5px 5px #201F23;
+
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    box-shadow: 5px 5px 5px #201F23;
+  }
+
+  input[type=text],select, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  width: 50%;
+  margin: auto;
+
+
+  }
+
+  .footer{
+    width: 100%;
+    background-color: #201F23;
+    padding: 10px 0;
+    text-align: center;
+
+  }
+
